@@ -1,14 +1,11 @@
 const imageArray = [
 
     "/static/images/IMG_0415.jpg",
-    "/static/images/IMG_2833.jpg",
-    "/static/images/IMG_3249.jpg",
-    "/static/images/IMG_3360.jpg",
-    "/static/images/IMG_4648.jpg",
+    
+    
+    
     "/static/images/IMG_5098.jpg",
-    "/static/images/IMG_5103.jpg",
-    "/static/images/IMG_5227.jpg",
-    "/static/images/IMG_7568.jpg",
+    
     "/static/images/1.jpg",
     "/static/images/2.jpg",
     "/static/images/3.jpg",
