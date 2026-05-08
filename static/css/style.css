@@ -199,8 +199,16 @@ nav ul li:hover{
     right:40px;
 }
 
-@media(max-width:900px){
+
     @media(max-width:900px){
+
+    .logo{
+        width: 100%;
+    font-size:25px;
+    font-weight:700;
+    text-align: center;
+    
+    }   
 
     nav ul{
         display:none;
@@ -282,5 +290,4 @@ nav ul li:hover{
     .right-arrow{
         right:calc(50% - 70px);
     }
-}
 }
