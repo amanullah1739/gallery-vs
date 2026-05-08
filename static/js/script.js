@@ -61,8 +61,16 @@ function updateCarousel(){
         let absOffset =
         Math.abs(offset);
 
-        let x =
-        offset * 420;
+        let x;
+
+        if(window.innerWidth < 900){
+
+           x = offset * 140;
+
+        }else{
+
+        x = offset * 420;
+        }
 
         let scale =
         1 - absOffset * 0.2;
