@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+
+    <title>Amaan Files</title>
+
+    <link rel="stylesheet"
+    href="{{ url_for('static', filename='css/style.css') }}">
+
+    <link rel="preconnect"
+    href="https://fonts.googleapis.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+</head>
+<body>
+
+    <section class="hero">
+
+        <nav>
+
+            <div class="logo">
+                Amaan Files
+            </div>
+
+            <ul>
+                <li>Home</li>
+                <li>Gallery</li>
+                <li>Videos</li>
+                <li>About</li>
+            </ul>
+
+        </nav>
+
+        <div class="hero-content">
+
+            <p class="small-title">
+                CINEMATIC NATURE GALLERY
+            </p>
+
+            <h1>
+                See The World <br>
+                Through My Lens
+            </h1>
+
+            <p class="description">
+                Mountains, forests, sunsets, roads,
+                and cinematic moments captured through
+                photography and film.
+            </p>
+
+            <div class="buttons">
+
+                <button class="primary-btn">
+                    Explore Gallery
+                </button>
+
+                <button class="secondary-btn">
+                    Watch Videos
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="carousel-container">
+
+            <button class="arrow left-arrow">
+                ←
+            </button>
+
+            <div class="carousel">
+
+               
+
+            </div>
+
+            <button class="arrow right-arrow">
+                →
+            </button>
+
+        </div>
+
+    </section>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+</body>
+</html>
